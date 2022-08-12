@@ -1,0 +1,101 @@
+__default__:
+  cpus: 1
+## rules/common.smk
+bam2fastqgz:
+  cpus: 2
+bam2fastqgz2:
+  cpus: 2
+bam_index:
+  cpus: 24
+#tabix: 1 # single
+
+## rules/pbmm2.smk
+pbmm2_align:
+  cpus: 24
+
+minimap2:
+  cpus: 48
+
+## rules/bam_merge
+sample_bam_merge:
+  cpus: 48
+
+## rules/deepvariant.smk
+deepvariant:
+  cpus: 24
+deepvariant_combile_vcf:
+  cpus: 14
+deepvariant_marker_low_quailty:
+  cpus: 14
+
+## rules/bam_phased.smk
+read_phasing:
+  cpus: 1
+
+## rules/leftalign.smk
+left_align:
+  cpus: 1
+
+## rules/gatk.smk
+gatk_merge_contig_vcf:
+  cpus: 1
+gatk_hc_call:
+  cpus: 1
+gatk_combine_gvcf:
+  cpus: 1
+gatk_genotype:
+  cpus: 1
+gatk_marker_low_quailty:
+  cpus: 2
+
+
+## rules/varscan.smk
+samtools_mpileup:
+  cpus: 1
+varscan_call_snp_indel:
+  cpus: 1
+varscan_combile_vcf:
+  cpus: 1
+varscan_marker_low_quailty:
+  cpus: 1
+
+
+## rules/vcf_normlization.smk
+vcf_normalization:
+  cpus: 2
+
+## rules/variant_phased.smk
+var_phased:
+  cpus: 1
+var_phased_for_read_phased:
+  cpus: 1
+
+
+## rules/raw_read_qc
+fastqc:
+  cpus: 10
+
+qualimap:
+  cpus: 10
+
+mosdepth:
+  cpus: 10
+
+cuteSV:
+  cpus: 48
+
+
+pbSV_discovery:
+  cpus: 2
+pbsv_call:
+  cpus: 8
+
+
+sniffles:
+  cpus: 24
+
+sniffles_force:
+  cpus: 24
+
+SVision:
+  cpus: 48

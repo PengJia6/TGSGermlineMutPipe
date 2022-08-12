@@ -1,0 +1,58 @@
+ChineseQuartet:
+  LCL5:
+    sex: "F"
+    path:
+      - "/data/DATA/ChineseQuartet/RAWDATA/HiFi/fastqs/LCL5/LCL5_m64154_210327_091530.ccs.fq.gz"
+      - "/data/DATA/ChineseQuartet/RAWDATA/HiFi/fastqs/LCL5/LCL5_m64154_210328_153009.ccs.fq.gz"
+      - "/data/DATA/ChineseQuartet/RAWDATA/HiFi/fastqs/LCL5/LCL5_m64154_210403_042108.ccs.fq.gz"
+      - "/data/DATA/ChineseQuartet/RAWDATA/HiFi/fastqs/LCL5/LCL5_m64236_210323_112137.ccs.fq.gz"
+      - "/data/DATA/ChineseQuartet/RAWDATA/HiFi/fastqs/LCL5/LCL5_m64236_210330_051441.ccs.fq.gz"
+  LCL6:
+    sex: "F"
+    path:
+      - "/data/DATA/ChineseQuartet/RAWDATA/HiFi/fastqs/LCL6/LCL6_m64154_210318_093818.ccs.fq.gz"
+      - "/data/DATA/ChineseQuartet/RAWDATA/HiFi/fastqs/LCL6/LCL6_m64154_210322_170722.ccs.fq.gz"
+      - "/data/DATA/ChineseQuartet/RAWDATA/HiFi/fastqs/LCL6/LCL6_m64154_210323_233537.ccs.fq.gz"
+      - "/data/DATA/ChineseQuartet/RAWDATA/HiFi/fastqs/LCL6/LCL6_m64154_210325_060339.ccs.fq.gz"
+      - "/data/DATA/ChineseQuartet/RAWDATA/HiFi/fastqs/LCL6/LCL6_m64154_210401_215258.ccs.fq.gz"
+  LCL7:
+    sex: "M"
+    path:
+      - "/data/DATA/ChineseQuartet/RAWDATA/HiFi/fastqs/LCL7/LCL7_P92Y21388420_r64054_20210322_005620_3_C02.ccs.fq.gz"
+      - "/data/DATA/ChineseQuartet/RAWDATA/HiFi/fastqs/LCL7/LCL7_P92Y21388420_r64116_20210320_045347_2_G02.ccs.fq.gz"
+      - "/data/DATA/ChineseQuartet/RAWDATA/HiFi/fastqs/LCL7/LCL7_P92Y21388420_r64116_20210320_045347_3_H02.ccs.fq.gz"
+      - "/data/DATA/ChineseQuartet/RAWDATA/HiFi/fastqs/LCL7/LCL7_P92Y21388420_r64118_20210319_075926_1_A02.ccs.fq.gz"
+      - "/data/DATA/ChineseQuartet/RAWDATA/HiFi/fastqs/LCL7/LCL7_P92Y21388420_r64118_20210319_075926_2_B02.ccs.fq.gz"
+  LCL8:
+    sex: "M"
+    path:
+      - "/data/DATA/ChineseQuartet/RAWDATA/HiFi/fastqs/LCL8/LCL8_P92Y21388419_r64030_20210317_083545_1_F02.ccs.fq.gz"
+      - "/data/DATA/ChineseQuartet/RAWDATA/HiFi/fastqs/LCL8/LCL8_P92Y21388419_r64030_20210317_083545_2_G02.ccs.fq.gz"
+      - "/data/DATA/ChineseQuartet/RAWDATA/HiFi/fastqs/LCL8/LCL8_P92Y21388419_r64030_20210322_004723_3_C02.ccs.fq.gz"
+      - "/data/DATA/ChineseQuartet/RAWDATA/HiFi/fastqs/LCL8/LCL8_P92Y21388419_r64031_20210317_061746_1_F02.ccs.fq.gz"
+      - "/data/DATA/ChineseQuartet/RAWDATA/HiFi/fastqs/LCL8/LCL8_P92Y21388419_r64054_20210317_062126_1_F02.ccs.fq.gz"
+HGSVC_CHS:
+  HG00512:
+    sex: ""
+    path:
+      - "/data/DATA/ChineseQuartet/HGSVC/HG00512/HG00512_PacBio_Sequel2_CCS__EDEVI_20190920_S64018_PL100139347-1_A01.ccs.fastq.gz"
+      - "/data/DATA/ChineseQuartet/HGSVC/HG00512/HG00512_PacBio_Sequel2_CCS__EDEVI_20190920_S64018_PL100139347-1_C01.ccs.fastq.gz"
+      - "/data/DATA/ChineseQuartet/HGSVC/HG00512/HG00512_PacBio_Sequel2_CCS__EDEVI_20191004_S64018_PL100139347-2_A01.ccs.fastq.gz"
+      - "/data/DATA/ChineseQuartet/HGSVC/HG00512/HG00512_PacBio_Sequel2_CCS__EDEVI_20191004_S64018_PL100139347-2_B01.ccs.fastq.gz"
+      - "/data/DATA/ChineseQuartet/HGSVC/HG00512/HG00512_PacBio_Sequel2_CCS__EDEVI_20191007_S64049_PL100139347-2_A01.ccs.fastq.gz"
+      - "/data/DATA/ChineseQuartet/HGSVC/HG00512/HG00512_PacBio_Sequel2_CCS__EDEVI_20191007_S64049_PL100139347-2_B01.ccs.fastq.gz"
+  HG00513:
+    sex: ""
+    path:
+      - "/data/DATA/ChineseQuartet/HGSVC/HG00513/HG00513_PacBio_Sequel2_CCS__EDEVI_20190920_S64018_PL100139348-1_B01.ccs.fastq.gz"
+      - "/data/DATA/ChineseQuartet/HGSVC/HG00513/HG00513_PacBio_Sequel2_CCS__EDEVI_20190920_S64018_PL100139348-1_D01.ccs.fastq.gz"
+      - "/data/DATA/ChineseQuartet/HGSVC/HG00513/HG00513_PacBio_Sequel2_CCS__EDEVI_20191004_S64018_PL100139348-1_C01.ccs.fastq.gz"
+      - "/data/DATA/ChineseQuartet/HGSVC/HG00513/HG00513_PacBio_Sequel2_CCS__EDEVI_20191004_S64018_PL100139348-1_D01.ccs.fastq.gz"
+      - "/data/DATA/ChineseQuartet/HGSVC/HG00513/HG00513_PacBio_Sequel2_CCS__EDEVI_20191007_S64049_PL100139348-2_C01.ccs.fastq.gz"
+      - "/data/DATA/ChineseQuartet/HGSVC/HG00513/HG00513_PacBio_Sequel2_CCS__EDEVI_20191007_S64049_PL100139348-2_D01.ccs.fastq.gz"
+  HG00514:
+    sex: ""
+    path:
+      - "/data/DATA/ChineseQuartet/HGSVC/HG00514/HG00512_m54329U_200715_194535.ccs.fq.gz"
+      - "/data/DATA/ChineseQuartet/HGSVC/HG00514/HG00512_m54329U_200719_061020.ccs.fq.gz"
+      - "/data/DATA/ChineseQuartet/HGSVC/HG00514/HG00512_m54329U_200717_235548.ccs.fq.gz"

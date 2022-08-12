@@ -1,0 +1,23 @@
+project: chinese_quartet
+
+bam_phasing: NO # Yes/No
+bam_left_align: NO # Yes/No
+aligners:
+  - "minimap2"
+bam_phasing_caller: dv  # dv
+callers:
+  - "gatk"
+  - "varscan"
+  - "deepvariant"
+svcallers:
+  - "cuteSV"
+  - "sniffles"
+  - "pbsv"
+  - "SVision"
+dir_data: "/data/home/pengjia/Project_Human_DATA/ChineseQuartet/ref_based_analysis/"
+
+refs:
+  - GRCh38
+#  - T2T
+project_name:
+  "human_hifi_Chinese_Quartet_HGSVC_GIAB_trios"

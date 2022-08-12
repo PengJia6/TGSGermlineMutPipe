@@ -1,0 +1,35 @@
+# GRCh38
+ref:
+  GRCh38:
+    name: 'GRCh38'
+    fasta: "/data/DATA/Reference/human/GRCh38_full_analysis_set_plus_decoy_hla/genome/GRCh38_full_analysis_set_plus_decoy_hla.fa"
+    index: "/data/DATA/Reference/human/GRCh38_full_analysis_set_plus_decoy_hla/genome/GRCh38_full_analysis_set_plus_decoy_hla.fa.fai"
+    avaliable: ['chr1', 'chr2', 'chr3', 'chr4', 'chr5',
+                'chr6', 'chr7', 'chr8', 'chr9', 'chr10',
+                'chr11', 'chr12', 'chr13', 'chr14', 'chr15',
+                'chr16', 'chr17', 'chr18', 'chr19', 'chr20',
+                'chr21', 'chr22',"chrX","chrY","chrM"]
+    autosomes: ['chr1', 'chr2', 'chr3', 'chr4', 'chr5',
+                'chr6', 'chr7', 'chr8', 'chr9', 'chr10',
+                'chr11', 'chr12', 'chr13', 'chr14', 'chr15',
+                'chr16', 'chr17', 'chr18', 'chr19', 'chr20',
+                'chr21', 'chr22']
+    sex_chrom: ["chrX", "chrY"]
+    mit_chrom: ["chrM"]
+
+  T2T:
+    name: 'T2T'
+    fasta: "/data/DATA/Reference/human/T2TY/chm13.draft_v1.1_GRCh38_chrY.fasta"
+    index: "/data/DATA/Reference/human/T2TY/chm13.draft_v1.1_GRCh38_chrY.fasta.fai"
+    autosomes: ['chr1', 'chr2', 'chr3', 'chr4', 'chr5',
+                'chr6', 'chr7', 'chr8', 'chr9', 'chr10',
+                'chr11', 'chr12', 'chr13', 'chr14', 'chr15',
+                'chr16', 'chr17', 'chr18', 'chr19', 'chr20',
+                'chr21', 'chr22']
+    sex_chrom: ["chrX", "chrY"]
+    mit_chrom: ["chrM"]
+    avaliable: ['chr1', 'chr2', 'chr3', 'chr4', 'chr5',
+                'chr6', 'chr7', 'chr8', 'chr9', 'chr10',
+                'chr11', 'chr12', 'chr13', 'chr14', 'chr15',
+                'chr16', 'chr17', 'chr18', 'chr19', 'chr20',
+                'chr21', 'chr22',"chrX","chrY","chrM"]
